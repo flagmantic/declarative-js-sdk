@@ -23,6 +23,12 @@ export class Client {
       throw new ClientError(response);
     }
   }
+
+  applySync(schema: DeclarativeSchema) {
+    (async () => {
+      await this.apply(schema);
+    })();
+  }
 }
 
 export class ClientError extends Error {

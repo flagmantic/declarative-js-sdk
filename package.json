@@ -1,6 +1,6 @@
 {
   "name": "@firstkind/declarative",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An SDK to facilitate specifying feature flags declaratively",
   "private": false,
   "main": "dist/index.js",
