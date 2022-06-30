@@ -1,0 +1,18 @@
+{
+  "name": "@firstkind/declarative",
+  "version": "1.0.0",
+  "description": "An SDK to facilitate specifying feature flags declaratively",
+  "main": "index.js",
+  "scripts": {
+    "build": "esbuild src/index.ts --bundle --platform=node --outfile=out/index.js"
+  },
+  "author": "First Kind Software",
+  "license": "MIT",
+  "dependencies": {
+    "cross-fetch": "^3.1.5",
+    "esbuild": "^0.14.47",
+    "install": "^0.13.0",
+    "node-fetch": "^3.2.6",
+    "npm": "^8.13.1"
+  }
+}
