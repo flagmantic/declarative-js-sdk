@@ -25,7 +25,7 @@ export class Client {
   }
 }
 
-class ClientError extends Error {
+export class ClientError extends Error {
   payload: Promise<string[]>;
   constructor(resp: Response) {
     super();
