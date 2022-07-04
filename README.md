@@ -1,4 +1,4 @@
-# First Kind Declarative SDK
+# Flagmantic Declarative SDK
 
 This library provides a typescript declarative SDK for defining projects, environments, and feature flags.
 
